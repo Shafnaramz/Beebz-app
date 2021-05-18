@@ -1,0 +1,224 @@
+
+.ItemList .titlegroup {
+  border-bottom: 1px solid #f0eaea;
+  margin-top: 20px;
+  width: 100%;
+  /* border: solid 1px #f0eaea ; */
+  margin-left: 0;
+}
+.ItemList .titlegroup .title{
+  /* width: 75%; */
+  /* height: 60px; */
+  padding-top: 16px;
+  background-color: #FFFFFF;
+  font-size: 19px;
+  font-weight: 500;
+  padding-left: 2%;
+  text-align: left;
+  left: 0;
+  font-family: "Roboto";
+   
+
+}
+.ItemList .view{
+  /* width: 25%; */
+  text-align: right;
+  padding-top: 15px;
+}
+ .titlegroup .view a{
+  /* margin-left: 78%; */
+ /* padding-right: 2%; */
+  text-align: right;
+ right: 0;
+  align-items: flex-end;
+  color: black;
+  text-decoration: none;
+  height: 60px;
+  padding-top: 16px;
+  font-family: "Roboto";
+  font-size: 19px;
+  font-weight:500;
+}
+
+
+
+.ItemList .flexgrid .card{
+  border: none;
+  /* width: 300px; */
+  padding-left: 20px;
+}
+.ItemList img{
+  height: 129px;
+  width: 115px;
+  margin-left: 30px;
+  margin-top: 05%;
+object-fit: contain;
+padding-left: 30px;
+
+}
+
+.ItemList .flexgrid .card-title{
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.ItemList .flexgrid .card-text{
+  color: #AFAFAF;
+  font-size: 14px;
+  border: none;
+ text-align: left;
+ font-family: "Roboto";
+} 
+.ItemList button{
+  margin-left: 0%;
+  width: 75px;
+  height: 25px;
+font-size: 12px;
+font-weight: 600;
+  margin-top: 10%;
+  padding-top: 1%;
+  background-color: #FF0000;
+ 
+}
+
+.ItemList .card-group{
+  
+  border:none;
+  border-top: solid 1px #f0eaea ;
+}
+.ItemList{
+    background-color: #F1F3F6;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    width: 1200px;
+        color: black;
+
+}
+.ItemList .price{
+    color: black;
+  vertical-align: super;
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: 400;
+  text-decoration-line:line-through;
+  
+}
+
+.discount-price{
+  font-size: 18px;
+  padding-left: 0;
+  text-align: left;
+  margin-left: 0%;
+ 
+  
+
+
+}
+
+.ItemList .flexgrid{
+  width: 100%;
+}
+
+@media(min-width:1200px){
+.ItemList{
+ width: 100%;
+
+}
+
+}
+@media(max-width:576px){
+.ItemList{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+ .ItemList .titlegroup{
+   font-size:xx-small;
+   width: 100%;
+   padding: 0;
+   height: auto;
+   margin: 0;
+  
+ }
+ .ItemList .titlegroup .title{
+   width: 60%;
+   margin: 0;
+   /* border: 1px solid red; */
+   font-size: 16px;
+
+ }
+ .ItemList .titlegroup .view{
+   width: 40%;
+   /* border: 1px solid red; */
+   /* margin-top: 10px; */
+ }
+ .ItemList .view a{
+   /* margin: 00%; */
+   text-align:start;
+margin-top: 10px;
+word-spacing: 3px;
+font-size: 16px;
+  /* text-align:end; */
+ }
+ .ItemList .blogcard {
+display: flex;
+justify-content: flex-start;
+flex-flow: row wrap;
+align-items: stretch;
+padding-left: 0;
+margin-left: 0;
+
+ }
+ /* .ItemList .blogcard .card{
+   width: 40%;
+ }
+ .ItemList .blogcard .card5,.card4{
+   visibility: hidden;
+ }
+ .ItemList .blogcard .card .card-body{
+  width: 100%;
+  border:1px solid red;
+  padding: 0;
+  margin: 0;
+ }
+.ItemList .blogcard .card .card-body .card-title{
+  font: 2vw;
+  width: 100%;
+  border:1px solid red;
+  padding: 0;
+  margin: 0;
+
+ }
+ .ItemList .blogcard img{
+   object-fit: cover;
+   margin-left: 0;
+   padding-left:0;
+   width: 100%;
+   height: 150%;
+  
+ } */
+}
+
+@media(max-width:576px){
+  .ItemList{
+  width:100%;
+  }
+  .ItemList .flexgrid{
+    width: 100%;
+    overflow-x: hidden;
+ }
+}
+@media(max-width:200px){
+.ItemList{
+width:200px;
+}
+.ItemList .titlegroup .title{
+font-size: 14px;
+}
+.ItemList  .view a{
+  font-size: 14px;
+
+}
+}

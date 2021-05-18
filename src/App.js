@@ -1,24 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
-
+import NavBar from "./components/navbar/navbar";
+import Footer from './components/footer/footer'
+import HomeComponent from './components/home/home'
+import Home from './components/home'
+import {BrowserRouter, Link, Route, Switch} from 'react-router-dom'
+import DeleteItems from './components/CountryList'
+import icon from './assets/icon.svg'
+import Category from './components/CATEGORIES/category'
 function App() {
+  
   return (
+    <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <NavBar/>
+  
+{/* <DeleteItems/> */}
+     
+      <HomeComponent/>
+      {/* <Link to="/productdetails">Footer</Link> */}
+      <Switch>
+        <Route path="/search" exact={true}><Category/></Route>
+      </Switch>
+      <Footer/>
     </div>
+     </BrowserRouter>
   );
 }
 

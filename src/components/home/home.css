@@ -1,0 +1,476 @@
+.HomeComponent{
+    width:1200px;
+margin: 0;
+padding: 0%;
+background-color: #F1F3F6;
+
+}
+#pricesvg{
+    font-size: 21px;
+}
+#discountsvg{
+    font-size:16px;
+}
+   .HomeComponent .row1{
+       height: auto;
+       margin: 0%;
+       background-color: transparent;
+       /* padding-bottom: auto; */
+       border: none;
+       border: none;
+       padding-bottom: 20px;
+    }
+   .HomeComponent .row1 .card{
+    height: auto;
+    margin: 0%;
+    padding: 5px;
+    /* padding-bottom: 20px; */
+    border: none;
+    background-color: #F1F3F6;
+   /* margin-bottom: 20px; */
+}
+.HomeComponent .row1 img{
+    
+    width:100%;
+    height: 360px;
+    object-fit:cover;
+    position: relative;
+    margin: 0%;
+    padding-bottom: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 15px;
+    border: none;
+    fill: #C4C4C4;
+    /* opacity: 70%; */
+    filter: brightness(30%);
+    background-blend-mode: multiply;
+    
+
+    ;
+   }
+   .HomeComponent .card .row{
+       background-color: transparent;
+       text-align: left;
+   }
+   .HomeComponent .row1 .subtitle{
+       color:white;
+
+   }
+   .HomeComponent .addgrid .row{
+       background-color: transparent;
+       width: 100%;
+   }
+   .HomeComponent .addgrid .card {
+      
+       /* filter:brightness(60%); */
+       border: 1px solid red;
+      /* opacity: .5; */
+            filter: drop-shadow(40px,70px,70px,red);
+   }
+   /* .HomeComponent .addgrid .card-body {
+       height: 200px;
+    background-color: #FFBA05;
+
+background-image: linear-gradient(to right,yellow,red);
+    opacity: 60%;
+    border: 3px solid red;
+} */
+   .HomeComponent .row1 .card{
+       background-color: transparent;
+   }
+   .HomeComponent .row1 .imgleft{
+       width: 290px;
+       height: 290px;
+       filter: brightness(100%);
+       object-fit:contain;
+       margin-left: 55%;
+       margin-top: 0;
+       margin-bottom: 0px;
+   }
+   .HomeComponent .row1 .card-title{
+       color: #ffffff;
+       font-size: 50px;
+       font-weight: bold;
+       margin-left: 0%;
+   }
+   .itemrounds {
+       height: auto;
+       margin-left: 3%;
+       margin-right: 3%;
+       background-color: #FFFFFF;
+       padding-bottom: 20px;
+       margin-top: 20px;
+   }
+   .itemrounds .card{
+ height: UTO;
+ width: 100%;
+ background-color:transparent;
+ /* padding: 40px; */
+ /* border-radius: 50% ; */
+  margin-left: 3%;
+  margin-top: 20px;
+  align-content: center;
+  border: none;
+  
+   }
+   .itemrounds .roundimg{
+    border-radius: 90%;
+    height: 105px;
+    width: 105px;
+     
+    background-color:#EFEFEF;
+
+   }
+   .itemrounds  img{
+       object-fit:fill;
+       margin-top: 10%;
+       width: 80%;
+       height: 80%;
+    padding: 10%;
+   }
+   .HomeComponent .itemrounds .card-body{
+       text-align: left;
+   }
+.HomeComponent .adv1 {
+    /* padding: 1%; */
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #ffffff;
+
+}
+.HomeComponent .adv1 .card{
+    border: none;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.button-shop{
+    height: 45px;
+    width: 143px;
+    background-color: #FFBA05;
+}
+.HomeComponent .adv1 .card{
+    padding: 1%;
+    margin: 1%;
+    background-color: #ffffff;
+
+}
+
+.HomeComponent .usertypes{
+   margin-left: 2%;
+    margin-right: 2%; 
+    margin-top: 20px;
+    background-color: #F1F3F6;
+    
+}
+.HomeComponent .usertypes  .card{
+    height: 265px;
+    margin:  1%;
+    border: none;
+}
+.HomeComponent .usertypes img{
+    height: 178px;
+    width:178px;
+    margin-left: 20px;
+}
+.HomeComponent .usertypes .card-body{
+    padding-left: 55%;
+    padding-top: 0;
+    padding-top: 30px;
+}
+.HomeComponent .addblend .card{
+    filter: brightness(30%);
+    background-blend-mode: multiply;
+
+}
+.HomeComponent .addblend .card .leftside{
+    z-index: 300;
+    filter: brightness(100%);
+   
+}
+.addAbvtopPicks{
+    background-color: #FFBA05;
+    height: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: auto;
+}
+.addAbvtopPicks .card {
+background-color: transparent;
+border: none;
+height:auto;
+text-align: left;
+left: 0%;
+}
+.addAbvtopPicks .prdctimg img{
+    height: 170px;
+    width: 170px;
+    object-fit: contain;
+    right: 0; 
+    align-self: flex-end;
+}
+.bigsale img{
+    height: 170px;
+    width: 170px;
+    object-fit: contain;
+    right: 0;
+}
+
+.HomeComponent .lastaddsrow{
+    margin-left: 3%;
+    margin-right: 3%; 
+    /* border :2px solid red; */
+    padding: 0;
+}
+.HomeComponent .lastaddsrow .card{
+    /* padding-top: 20px; */
+    background-color: #F1F3F6;
+    border: none;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    /* border-radius: 45px; */
+
+}
+.HomeComponent .lastaddsrow .card img{
+    height: 242px;
+    padding: 10px;
+    margin: 0%;
+    border-radius:  20px;
+
+    /* border :2px solid rgb(31, 57, 168); */
+}
+.HomeComponent .logosrow{
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.HomeComponent .logosrow .card{
+    border: none;
+}
+.HomeComponent .logosrow img{
+    height: 100px;
+    object-fit: contain;
+    width: 150px;
+    padding-right: 2px;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media(min-width:1200px){
+    .HomeComponent{
+      width: 100%;
+      position: relative;
+      /* height: 800px; */
+
+      height: auto;
+   }
+
+   
+   }
+   @media(max-width:576px){
+     .HomeComponent{
+       width: 100%;
+       background-color: #ffffff;
+       
+    }
+    .HomeComponent .row1 {
+        height: auto;
+        width: 100%;
+        /* border: 3px solid red; */
+        position: relative;
+    }
+    .HomeComponent .row1 img{
+        height: 230px;
+    }
+    .HomeComponent .row1 .card{
+        /* height: auto; */
+        margin-left: 0%;
+        margin-top: 0%;
+        /* border: 3px solid red; */
+       padding: 0;
+       margin: 0;
+       text-align: left;
+    }
+    .HomeComponent .row1 .card-body{
+        /* border: 3px solid red; */
+        padding: 0;
+        margin: 0; 
+        height: auto;
+        text-align: left;
+    }
+    .HomeComponent .row1 .leftone{
+        margin-left: 0%;
+        width: 50%;
+        /* padding: 0%; */
+        margin-bottom: 10px;
+        margin-top: 0%;
+        padding-top: 0%;
+        top: 0%;
+        
+    }
+.HomeComponent .row1 .right{
+    height: auto;
+    /* z-index: 33; */
+    width: 50%;
+    padding-top: 10px;
+    text-align: left;
+    /* margin-top: 0%; */
+    /* border: 3px solid red; */
+ /* position:absolute; */
+}
+.HomeComponent .row1 .imgleft{
+    padding: 0;
+    width: 100%;
+    max-height: 160px;
+    height: auto;
+    margin-left: 0%;
+    padding-top: 10px;
+    object-fit: contain;
+    float:left;
+    margin-top: 0%;
+}
+.subtitle{
+    font-size: 2vw;
+    text-align: left;
+    text-align: left;
+    margin-left: 10px;
+}
+.HomeComponent .row1 .card-title{
+    font-size: 6vw;
+    text-align: left;
+    margin-left: 10px;
+}
+.HomeComponent .row1 svg{
+    width: 100%;
+    font-size: smaller;
+    text-align: left;
+    /* margin-left: 10px; */
+}
+    .HomeComponent .addAbvtopPicks{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 0%;
+           }
+           .HomeComponent .addAbvtopPicks .card-body {
+               width: 100%;
+               margin-left: 0%;
+        margin-right: 0%;
+        padding: 0%;
+           }
+
+           .HomeComponent .usertypes img{
+               align-self: center;
+           }
+           .HomeComponent .usertypes .card{
+            width: 100%;
+            padding-left: 0%;
+            margin-left: 0;
+     
+        }
+        .HomeComponent .usertypes img{
+            padding-bottom: 30px;
+        }
+        .HomeComponent .usertypes .card-body{
+            margin-top: 100px;
+            height: 250px;
+            width: 100%;
+            padding-left: 0%;
+            margin-left: 0;
+            align-content: flex-start;
+     
+        }
+        #pricesvg{
+            font-size: 14px;
+        }
+        #discountsvg{
+            font-size: 10px;
+        }
+}
+@media(max-width:200px){
+    .HomeComponent{
+      width: 200px;
+      margin: 0;
+      background-color: #ffffff;
+      /* border: 1px solid red; */
+   }
+   .HomeComponent .row1{
+    border: 1px solid red;
+      margin: 0;
+      padding: 0;
+       width: 100%;
+       padding-left: 0;
+   }
+   .HomeComponent .row1 .card{
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    float: left;
+   }
+   .HomeComponent .row1 .imgleft{
+       margin-left: 0%;
+       width: 100px;
+       height: 200px;
+       margin-left: -15%;
+       left: 0;
+       float: left;
+       align-self: left;
+     object-fit:contain;
+       
+   }
+   .HomeComponent .row1 .right {
+    border: 1px solid red;
+    text-align: left;
+
+   }
+   .HomeComponent .adv1 {
+       margin: 0%;
+   }
+   .HomeComponent .adv1 .card .card-body{
+       margin: 0%;
+       padding: 0;
+   }
+   /* .HomeComponent .adv1 svg {
+    width:"200"; height:"80";
+    font-size:"10"; font-family:"Roboto" ;font-weight:"700"
+   } */
+  .HomeComponent .addAbvtopPicks{
+margin-left: 0%;
+margin-right: 0%;
+padding-left: 0%;
+   }
+   .addAbvtopPicks .prdctimg img{
+    height: 170px;
+    width: 170px;
+    object-fit: contain;
+    left: 0; 
+    align-self: flex-start;
+}
+   .HomeComponent .addAbvtopPicks .card-body {
+       width: 100%;
+       margin-left: 0%;
+margin-right: 0%;
+padding: 0%;
+   }
+   .HomeComponent .usertypes .card{
+       width: auto;
+       padding-left: 0%;
+       margin-left: 0;
+
+   }
+   .HomeComponent .usertypes img{
+       padding-bottom: 30px;
+   }
+   .HomeComponent .usertypes .card-body{
+       margin-top: 100px;
+       height: 250px;
+       width: 100%;
+       padding-left: 0%;
+       margin-left: 0;
+
+   }
+}
